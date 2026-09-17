@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "upload-cloudinary": "node scripts/upload_all_to_cloudinary.js"
   },
   "dependencies": {
     "cloudinary": "^2.11.0",
