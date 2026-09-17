@@ -29,8 +29,13 @@ const FRONTEND_DIR = fs.existsSync(path.join(BACKEND_DIR, '..', 'restuarent_webs
   ? path.join(BACKEND_DIR, '..', 'restuarent_website')
   : path.join(BACKEND_DIR, '..');
 
+const potentialPublicDirs = [
+  path.join(BACKEND_DIR, '..', 'public'),
+  path.join(FRONTEND_DIR, 'public'),
+];
+
+const PUBLIC_DIR = potentialPublicDirs.find(d => fs.existsSync(path.join(d, 'menu-images'))) || potentialPublicDirs[0];
 const SRC_MENU_JS_PATH = path.join(FRONTEND_DIR, 'src', 'data', 'menuData.js');
-const PUBLIC_DIR = path.join(FRONTEND_DIR, 'public');
 
 const Menu = require('../models/Menu');
 
