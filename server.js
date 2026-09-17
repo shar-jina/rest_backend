@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
 const mongoose = require('mongoose');
+const cloudinary = require('cloudinary').v2;
 
 const app = express();
 const PORT = process.env.PORT || 5001;
@@ -16,13 +17,34 @@ if (process.env.MONGODB_URI) {
     .catch((err) => console.warn('⚠️ MongoDB Connection warning:', err.message));
 }
 
+// Cloudinary Configuration
+const hasCloudinaryKeys =
+  Boolean(process.env.CLOUDINARY_CLOUD_NAME) &&
+  Boolean(process.env.CLOUDINARY_API_KEY) &&
+  Boolean(process.env.CLOUDINARY_API_SECRET);
+
+if (hasCloudinaryKeys) {
+  cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+  });
+  console.log('☁️ Cloudinary Cloud Storage configured successfully!');
+}
+
 // Directories
 const BACKEND_DIR = __dirname;
 const DATA_DIR = path.join(BACKEND_DIR, 'data');
 const UPLOADS_DIR = path.join(BACKEND_DIR, 'uploads');
 const MENU_JSON_PATH = path.join(DATA_DIR, 'menuData.json');
-const SRC_MENU_JS_PATH = path.join(BACKEND_DIR, '..', 'src', 'data', 'menuData.js');
-const PUBLIC_UPLOADS_DIR = path.join(BACKEND_DIR, '..', 'public', 'uploads');
+
+const SRC_MENU_JS_PATH = fs.existsSync(path.join(BACKEND_DIR, '..', 'restuarent_website', 'src', 'data', 'menuData.js'))
+  ? path.join(BACKEND_DIR, '..', 'restuarent_website', 'src', 'data', 'menuData.js')
+  : path.join(BACKEND_DIR, '..', 'src', 'data', 'menuData.js');
+
+const PUBLIC_UPLOADS_DIR = fs.existsSync(path.join(BACKEND_DIR, '..', 'restuarent_website', 'public', 'uploads'))
+  ? path.join(BACKEND_DIR, '..', 'restuarent_website', 'public', 'uploads')
+  : path.join(BACKEND_DIR, '..', 'public', 'uploads');
 
 // Ensure required directories exist
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -146,6 +168,7 @@ app.get('/api/health', (req, res) => {
     status: 'ok',
     server: 'Kanary Restaurant Backend',
     database: mongoose.connection.readyState === 1 ? 'MongoDB Connected' : 'Local JSON Storage',
+    cloudinary: hasCloudinaryKeys ? 'Configured' : 'Local Storage Only',
     timestamp: new Date(),
   });
 });
@@ -172,26 +195,51 @@ app.post('/api/menu', async (req, res) => {
 });
 
 // 4. POST Upload Menu Dish Image
-app.post('/api/menu/upload', upload.single('image'), (req, res) => {
+app.post('/api/menu/upload', upload.single('image'), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ success: false, error: 'No file uploaded' });
     }
 
-    const filename = req.file.filename;
-    const imagePath = `/uploads/${filename}`;
+    const localFilename = req.file.filename;
+    const localImagePath = `/uploads/${localFilename}`;
 
+    // Copy to public/uploads directory for frontend local static access
     try {
-      const publicDest = path.join(PUBLIC_UPLOADS_DIR, filename);
+      const publicDest = path.join(PUBLIC_UPLOADS_DIR, localFilename);
       fs.copyFileSync(req.file.path, publicDest);
     } catch (copyErr) {}
 
-    console.log(`[Upload] Image uploaded successfully: ${imagePath}`);
+    // Upload to Cloudinary CDN if credentials are provided
+    if (hasCloudinaryKeys) {
+      try {
+        const cloudResult = await cloudinary.uploader.upload(req.file.path, {
+          folder: 'kanary_restaurant_dishes',
+          use_filename: true,
+          unique_filename: true,
+        });
+
+        console.log(`[Cloudinary Upload] Uploaded to Cloudinary CDN: ${cloudResult.secure_url}`);
+        return res.json({
+          success: true,
+          imagePath: cloudResult.secure_url,
+          filename: cloudResult.public_id,
+          source: 'cloudinary',
+          message: 'Image uploaded to Cloudinary CDN successfully!',
+        });
+      } catch (cloudErr) {
+        console.warn('Cloudinary upload error (falling back to local server storage):', cloudErr.message);
+      }
+    }
+
+    // Fallback to local server disk storage
+    console.log(`[Upload] Image uploaded to local storage: ${localImagePath}`);
     return res.json({
       success: true,
-      imagePath: imagePath,
-      filename: filename,
-      message: 'Image uploaded successfully!',
+      imagePath: localImagePath,
+      filename: localFilename,
+      source: 'local',
+      message: 'Image uploaded to local storage successfully!',
     });
   } catch (error) {
     console.error('Upload Error:', error);
