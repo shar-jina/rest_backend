@@ -343,9 +343,13 @@ app.delete('/api/menu/item', async (req, res) => {
         deletedItem,
         message: `Dish removed successfully from ${category}`,
       });
-    } else {
-      return res.status(500).json({ success: false, error: 'Failed to delete dish from storage' });
     }
+  } catch (err) {
+    console.error('Delete Dish Error:', err);
+    return res.status(500).json({ success: false, error: err.message });
+  }
+});
+
 // ====================================================
 // BLOG POSTS CRUD API ENDPOINTS
 // ====================================================
