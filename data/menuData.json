@@ -1,26 +1,15 @@
 {
-  "mains": [
+  "chefSpecials": [
     {
-      "title": "new2",
-      "name": "new2",
-      "price": 200,
-      "description": "",
+      "title": "Kanary Smoked Beef Brisket",
+      "name": "Kanary Smoked Beef Brisket",
+      "price": 659,
+      "description": "Premium slow-smoked beef brisket, infused with aromatic spices and natural wood smoke.",
       "spicy": false,
       "veg": false,
       "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642283/kanary_restaurant_dishes/ITM0001362_u1brcz.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "new1",
-      "name": "new1",
-      "price": 300,
-      "description": "",
-      "spicy": false,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789643306/kanary_restaurant_dishes/ITM0001368_phbmq3.jpg",
-      "isChefSpecial": false
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642285/kanary_restaurant_dishes/ITM0001368_hmbpuo.jpg",
+      "isChefSpecial": true
     },
     {
       "title": "Cheese Infused Chicken",
@@ -31,7 +20,51 @@
       "veg": false,
       "dairy": true,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642335/kanary_restaurant_dishes/ITM0001361_dxlgcd.jpg",
-      "isChefSpecial": false
+      "isChefSpecial": true
+    },
+    {
+      "title": "Beef Tenderloin",
+      "name": "Beef Tenderloin",
+      "price": 505,
+      "description": "Tender beef steak cuts grilled to order, served with crisp French fries and an organic garden green salad.",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642284/kanary_restaurant_dishes/ITM0001364_md0il7.jpg",
+      "isChefSpecial": true
+    },
+    {
+      "title": "Slow Cooked Beef Ribs",
+      "name": "Slow Cooked Beef Ribs",
+      "price": 659,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": true
+    },
+    {
+      "title": "Smoked Barbeque Ribs",
+      "name": "Smoked Barbeque Ribs",
+      "price": 659,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": true
+    },
+    {
+      "title": "Japanese Wagyu (Pre-Booked)",
+      "name": "Japanese Wagyu (Pre-Booked)",
+      "price": 0,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": true
     },
     {
       "title": "Grilled Chicken Breast",
@@ -42,6 +75,107 @@
       "veg": false,
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642400/kanary_restaurant_dishes/ITM0001370_tgt21g.jpg",
+      "isChefSpecial": true
+    }
+  ],
+  "starters": [
+    {
+      "title": "Chicken Manchow Soup",
+      "name": "Chicken Manchow Soup",
+      "price": 199,
+      "description": "A classic spicy and tangy Indo-Chinese soup loaded with shredded chicken and topped with crispy noodles.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642404/kanary_restaurant_dishes/ITM0000557_kw6uf8.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Hot & Sour Veg Soup",
+      "name": "Hot & Sour Veg Soup",
+      "price": 178,
+      "description": "Tangy and fiery vegetable soup packed with julienne carrots, bamboo shoots, and mushrooms.",
+      "spicy": true,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642405/kanary_restaurant_dishes/ITM0000789_wqfhph.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Hot & Sour Chicken Soup",
+      "name": "Hot & Sour Chicken Soup",
+      "price": 199,
+      "description": "A warming, classic hot and sour broth featuring tender chicken shreds and fresh scallions.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642406/kanary_restaurant_dishes/ITM0001298_fdmfjv.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Sweet Corn Veg Soup",
+      "name": "Sweet Corn Veg Soup",
+      "price": 178,
+      "description": "A comforting, velvety soup made with sweet golden corn kernels and farm-fresh minced veggies.",
+      "spicy": false,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642404/kanary_restaurant_dishes/ITM0000557_kw6uf8.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Sweet Corn Chicken Soup",
+      "name": "Sweet Corn Chicken Soup",
+      "price": 199,
+      "description": "A delicate, cream-style sweet corn soup garnished with egg drop ribbons and tender chicken.",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642405/kanary_restaurant_dishes/ITM0000789_wqfhph.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Chicken Momos (Schezwan)",
+      "name": "Chicken Momos (Schezwan)",
+      "price": 251,
+      "description": "Steamed chicken dumplings tossed in a bold, aromatic, and spicy Schezwan sauce.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642330/kanary_restaurant_dishes/ITM0001290_mpceou.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Veg Momos (Schezwan)",
+      "name": "Veg Momos (Schezwan)",
+      "price": 199,
+      "description": "Steamed garden vegetable dumplings coated in a fiery, hot Schezwan pepper sauce.",
+      "spicy": true,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642331/kanary_restaurant_dishes/ITM0001293_vyenoq.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Chicken Momos (Saffron Cream)",
+      "name": "Chicken Momos (Saffron Cream)",
+      "price": 251,
+      "description": "Succulent chicken momos served in a luxurious, aromatic saffron-infused dairy cream sauce.",
+      "spicy": false,
+      "veg": false,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642332/kanary_restaurant_dishes/ITM0001307_aj6hka.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Veg Momos (Saffron Cream)",
+      "name": "Veg Momos (Saffron Cream)",
+      "price": 220,
+      "description": "Gourmet vegetable momos bathed in a rich, buttery saffron and cardamom cream reduction.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642333/kanary_restaurant_dishes/ITM0001308_vsiza1.jpg",
       "isChefSpecial": false
     },
     {
@@ -67,6 +201,17 @@
       "isChefSpecial": false
     },
     {
+      "title": "Dynamite Shrimp",
+      "name": "Dynamite Shrimp",
+      "price": 283,
+      "description": "Lightly battered crispy golden shrimp coated in our iconic spicy, creamy dynamite mayo glaze.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642277/kanary_restaurant_dishes/ITM0000564_f43cqi.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Honey Chilli Chicken",
       "name": "Honey Chilli Chicken",
       "price": 252,
@@ -75,17 +220,6 @@
       "veg": false,
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642279/kanary_restaurant_dishes/ITM0000659_jgiyxa.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Spicy Chicken Strips",
-      "name": "Spicy Chicken Strips",
-      "price": 283,
-      "description": "Crunchy breaded chicken breast strips served over fresh shredded cabbage with house fries.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642280/kanary_restaurant_dishes/ITM0000662_j5hsmo.jpg",
       "isChefSpecial": false
     },
     {
@@ -100,6 +234,39 @@
       "isChefSpecial": false
     },
     {
+      "title": "Buffalo Chicken Wings",
+      "name": "Buffalo Chicken Wings",
+      "price": 262,
+      "description": "Crisp chicken wings glazed in authentic spicy Buffalo cayenne hot sauce, served with cool dip.",
+      "spicy": true,
+      "veg": false,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642276/kanary_restaurant_dishes/ITM0000541_uphapz.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Prawns Tempura",
+      "name": "Prawns Tempura",
+      "price": 283,
+      "description": "Japanese-style crispy, airy tempura-battered prawns served with a seasoned dipping sauce.",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642278/kanary_restaurant_dishes/ITM0000635_kqjuyo.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Shrimp Popcorn",
+      "name": "Shrimp Popcorn",
+      "price": 308,
+      "description": "Bite-sized, crispy seasoned popcorn shrimp, ideal for sharing and snacking.",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642279/kanary_restaurant_dishes/ITM0000659_jgiyxa.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Finger Fish",
       "name": "Finger Fish",
       "price": 167,
@@ -108,6 +275,52 @@
       "veg": false,
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642280/kanary_restaurant_dishes/ITM0000662_j5hsmo.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "French Fries / Peri Peri Fries",
+      "name": "French Fries / Peri Peri Fries",
+      "price": 188,
+      "description": "Classic golden-fried potato chips, available salted or tossed in high-kick peri peri dry rub.",
+      "spicy": true,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642276/kanary_restaurant_dishes/ITM0000541_uphapz.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Spicy Chicken Strips",
+      "name": "Spicy Chicken Strips",
+      "price": 283,
+      "description": "Crunchy breaded chicken breast strips served over fresh shredded cabbage with house fries.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642280/kanary_restaurant_dishes/ITM0000662_j5hsmo.jpg",
+      "isChefSpecial": false
+    }
+  ],
+  "mains": [
+    {
+      "title": "new1",
+      "name": "new1",
+      "price": 300,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789643306/kanary_restaurant_dishes/ITM0001368_phbmq3.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "new2",
+      "name": "new2",
+      "price": 200,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642283/kanary_restaurant_dishes/ITM0001362_u1brcz.jpg",
       "isChefSpecial": false
     },
     {
@@ -331,6 +544,105 @@
       "isChefSpecial": false
     },
     {
+      "title": "Beef Curry",
+      "name": "Beef Curry",
+      "price": 299,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Beef Coconut Fry",
+      "name": "Beef Coconut Fry",
+      "price": 293,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "BDF (Kanary Special)",
+      "name": "BDF (Kanary Special)",
+      "price": 336,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Beef Roast",
+      "name": "Beef Roast",
+      "price": 251,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Fish N Chips",
+      "name": "Fish N Chips",
+      "price": 496,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Fish Curry (Neymeen)",
+      "name": "Fish Curry (Neymeen)",
+      "price": 336,
+      "description": "Fresh Seer Fish (Neymeen) simmered in a classic red chili and coconut-based Malabar gravy.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642360/kanary_restaurant_dishes/ITM0001299_xg1ki2.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Neymeen Tawa Fry",
+      "name": "Neymeen Tawa Fry",
+      "price": "As Per Size",
+      "description": "Premium Seer Fish steak marinated in home-ground chili-garlic paste and shallow-fried on a tawa.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642358/kanary_restaurant_dishes/ITM0000613_pwqcfd.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Neymeen Mulakittathu",
+      "name": "Neymeen Mulakittathu",
+      "price": 310,
+      "description": "Traditional spicy red Seer Fish curry cooked in tamarind (Kudampuli) water and fiery chili paste.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642359/kanary_restaurant_dishes/ITM0000651_jtr765.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Prawn Roast",
+      "name": "Prawn Roast",
+      "price": 366,
+      "description": "Juicy prawns slow-roasted with onion, ginger, garlic, tomato, and crushed black pepper.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642360/kanary_restaurant_dishes/ITM0001299_xg1ki2.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Gobi Manchurian",
       "name": "Gobi Manchurian",
       "price": 199,
@@ -395,648 +707,6 @@
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642359/kanary_restaurant_dishes/ITM0000651_jtr765.jpg",
       "isChefSpecial": false
-    },
-    {
-      "title": "Fish Curry (Neymeen)",
-      "name": "Fish Curry (Neymeen)",
-      "price": 336,
-      "description": "Fresh Seer Fish (Neymeen) simmered in a classic red chili and coconut-based Malabar gravy.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642360/kanary_restaurant_dishes/ITM0001299_xg1ki2.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Neymeen Tawa Fry",
-      "name": "Neymeen Tawa Fry",
-      "price": "As Per Size",
-      "description": "Premium Seer Fish steak marinated in home-ground chili-garlic paste and shallow-fried on a tawa.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642358/kanary_restaurant_dishes/ITM0000613_pwqcfd.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Neymeen Mulakittathu",
-      "name": "Neymeen Mulakittathu",
-      "price": 310,
-      "description": "Traditional spicy red Seer Fish curry cooked in tamarind (Kudampuli) water and fiery chili paste.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642359/kanary_restaurant_dishes/ITM0000651_jtr765.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Prawn Roast",
-      "name": "Prawn Roast",
-      "price": 366,
-      "description": "Juicy prawns slow-roasted with onion, ginger, garlic, tomato, and crushed black pepper.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642360/kanary_restaurant_dishes/ITM0001299_xg1ki2.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Peri Peri Chicken",
-      "name": "Peri Peri Chicken",
-      "price": "219 / 384 / 736",
-      "description": "Succulent charcoal chicken marinated in a spicy, tangy African bird's eye chili marinade. Served with Fries and Pita Bread.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642335/kanary_restaurant_dishes/ITM0001361_dxlgcd.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Masala Alfaham",
-      "name": "Masala Alfaham",
-      "price": "219 / 384 / 736",
-      "description": "Charcoal grilled chicken coated in a rich Indian spice marinade. Served with Fries and Pita Bread.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642334/kanary_restaurant_dishes/ITM0001353_ujn7cq.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Masala Shawaya",
-      "name": "Masala Shawaya",
-      "price": "219 / 440 / 714",
-      "description": "Spit-roasted chicken infused with hot and flavorful Indian tandoori spices. Served with hummus, salad, and fries.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642400/kanary_restaurant_dishes/ITM0001370_tgt21g.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "A2 Ghee Masala Dosa",
-      "name": "A2 Ghee Masala Dosa",
-      "price": 146,
-      "description": "Crispy ghee roast crepe stuffed with a spiced potato-onion mash, served with coconut and tomato chutneys.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642303/kanary_restaurant_dishes/ITM0000532_qrt849.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "A2 Ghee Onion Uthappam",
-      "name": "A2 Ghee Onion Uthappam",
-      "price": 127,
-      "description": "Thick, spongy rice pancake topped with fresh chopped onions, green chilies, and fried in A2 ghee.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642306/kanary_restaurant_dishes/ITM0000535_kdz9n5.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "A2 Ghee Paneer Masala Dosa",
-      "name": "A2 Ghee Paneer Masala Dosa",
-      "price": 199,
-      "description": "Crispy crepe filled with a savory spiced cottage cheese scramble roasted in pure A2 ghee.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642310/kanary_restaurant_dishes/ITM0000652_b7y3uk.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "A2 Ghee Chappatti",
-      "name": "A2 Ghee Chappatti",
-      "price": 27,
-      "description": "Soft, healthy whole wheat flatbread rolled and griddled with a smear of grass-fed A2 ghee.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642312/kanary_restaurant_dishes/ITM0000680_qyj6nn.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Classic Margherita Pizza",
-      "name": "Classic Margherita Pizza",
-      "price": 418,
-      "description": "12-inch thin crust pizza with house marinara, fresh basil, cherry tomatoes, and loaded mozzarella.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642386/kanary_restaurant_dishes/ITM0000561_jtjyft.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Tender Chicken Fajitas Pizza",
-      "name": "Tender Chicken Fajitas Pizza",
-      "price": 471,
-      "description": "12-inch pizza loaded with chicken shreds, bell peppers, cajun spices, mushrooms, red onion, and mozzarella.",
-      "spicy": true,
-      "veg": false,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642387/kanary_restaurant_dishes/ITM0000562_qktxcm.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Roasted Veg Pizza",
-      "name": "Roasted Veg Pizza",
-      "price": 418,
-      "description": "12-inch pizza topped with yellow and green zucchini, roasted bell peppers, olives, basil, onions, and cheese.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642388/kanary_restaurant_dishes/ITM0000631_hwhqtw.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "BBQ Chicken Pizza",
-      "name": "BBQ Chicken Pizza",
-      "price": 481,
-      "description": "12-inch pizza topped with BBQ chicken chunks, cheddar, mozzarella, gouda cheese, and a sweet & tangy sauce.",
-      "spicy": false,
-      "veg": false,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642388/kanary_restaurant_dishes/ITM0000632_pb6edh.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Four Season Pizza",
-      "name": "Four Season Pizza",
-      "price": 513,
-      "description": "12-inch gourmet pizza featuring four distinct cheese quarters: blue cheese, mozzarella, English cheddar, and gouda.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642389/kanary_restaurant_dishes/ITM0000682_cl0h32.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Sharjah Delight",
-      "name": "Sharjah Delight",
-      "price": 154,
-      "description": "The classic Malabar shake made with banana, milk, boost, and topped with honey and nuts.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642365/kanary_restaurant_dishes/ITM0000516_zw66fw.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Dates Delight",
-      "name": "Dates Delight",
-      "price": 151,
-      "description": "A nutritious, thick blend of premium imported dates, chilled milk, and crushed almonds.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642366/kanary_restaurant_dishes/ITM0000547_jamrqx.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Pinacolada",
-      "name": "Pinacolada",
-      "price": 199,
-      "description": "A tropical, refreshing mocktail made with sweet pineapple juice, coconut cream, and crushed ice.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642367/kanary_restaurant_dishes/ITM0000601_tz4mfx.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Pina Blue",
-      "name": "Pina Blue",
-      "price": 199,
-      "description": "A vibrant blue mocktail blending blue curacao syrup, pineapple juice, and coconut cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642368/kanary_restaurant_dishes/ITM0000623_tltawa.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Nutella Surprise",
-      "name": "Nutella Surprise",
-      "price": 209,
-      "description": "A chocolate lover's dream: rich Nutella chocolate spread blended with vanilla ice cream and milk.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642369/kanary_restaurant_dishes/ITM0000641_ihwipg.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Peanut Caramel Delight",
-      "name": "Peanut Caramel Delight",
-      "price": 178,
-      "description": "A rich blend of peanut butter, buttery salted caramel sauce, milk, and vanilla cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642377/kanary_restaurant_dishes/ITM0001412_p253sf.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Banana Split",
-      "name": "Banana Split",
-      "price": 209,
-      "description": "Gourmet banana split served with three scoops: Spanish Delight, Vanilla, and Chocolate ice cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642407/kanary_restaurant_dishes/ITM0000747_fdeobi.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Kanary Special Falooda",
-      "name": "Kanary Special Falooda",
-      "price": 284,
-      "description": "Fabulous falooda packed with apple, anar, grapes, pineapple, cashews, raisins, rose milk, and vanilla ice cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642408/kanary_restaurant_dishes/ITM0000748_bmnfhx.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Strawberry Scoop",
-      "name": "Strawberry Scoop",
-      "price": 103,
-      "description": "Single scoop of premium creamy strawberry ice cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642391/kanary_restaurant_dishes/ITM0000580_pgyyl4.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Vanilla Scoop",
-      "name": "Vanilla Scoop",
-      "price": 108,
-      "description": "Classic scoop of rich Madagascar vanilla bean ice cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642392/kanary_restaurant_dishes/ITM0000581_y7fpgo.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Chocolate Scoop",
-      "name": "Chocolate Scoop",
-      "price": 127,
-      "description": "Rich, creamy milk chocolate scoop of ice cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642393/kanary_restaurant_dishes/ITM0000626_tshppn.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Butterscotch Scoop",
-      "name": "Butterscotch Scoop",
-      "price": 145,
-      "description": "Sweet scoop of butterscotch ice cream with caramelized butter crunch pieces.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642394/kanary_restaurant_dishes/ITM0000649_mggert.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Spanish Delight Scoop",
-      "name": "Spanish Delight Scoop",
-      "price": 135,
-      "description": "A scoop of premium, creamy Spanish caramel-butterscotch ripple ice cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642395/kanary_restaurant_dishes/ITM0000673_cpxavj.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Mango Scoop",
-      "name": "Mango Scoop",
-      "price": 114,
-      "description": "Premium scoop of rich, sweet Alphonso mango ice cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642395/kanary_restaurant_dishes/ITM0001439_uzoudc.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Red Velvet Scoop",
-      "name": "Red Velvet Scoop",
-      "price": 157,
-      "description": "Luxury scoop of red velvet ice cream blended with real red velvet cake bits.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642390/kanary_restaurant_dishes/ITM0000552_c2s16v.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Biriyani Tea (A2 Milk)",
-      "name": "Biriyani Tea (A2 Milk)",
-      "price": 33,
-      "description": "Our special strong tea brewed with milk and cardamom, perfect after a biryani meal.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642337/kanary_restaurant_dishes/ITM0000507_ykf4dz.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Pure A2 Milk",
-      "name": "Pure A2 Milk",
-      "price": 38,
-      "description": "A cup of hot, sweetened pure organic A2 milk.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642340/kanary_restaurant_dishes/ITM0000510_rmrsai.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Boost (A2 Milk)",
-      "name": "Boost (A2 Milk)",
-      "price": 48,
-      "description": "Hot chocolate-malt Boost drink made with rich A2 milk.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642343/kanary_restaurant_dishes/ITM0000567_nxhv1z.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Horlicks (A2 Milk)",
-      "name": "Horlicks (A2 Milk)",
-      "price": 48,
-      "description": "Hot wheat-malt Horlicks drink prepared with rich A2 milk.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642344/kanary_restaurant_dishes/ITM0000568_kzmbyz.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Sulaimani",
-      "name": "Sulaimani",
-      "price": 19,
-      "description": "Traditional spice-infused black tea with a squeeze of fresh lemon.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642299/kanary_restaurant_dishes/ITM0000604_a8zj1p.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Chukku Kappi",
-      "name": "Chukku Kappi",
-      "price": 38,
-      "description": "Traditional dry ginger and black pepper coffee, highly soothing and herbal.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642347/kanary_restaurant_dishes/ITM0000595_h0dupf.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Masala Tea (A2 Milk)",
-      "name": "Masala Tea (A2 Milk)",
-      "price": 45,
-      "description": "Indian spice chai brewed with ginger, cardamom, cloves, and rich A2 milk.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642348/kanary_restaurant_dishes/ITM0000596_eqixyk.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Badam Milk (A2 Milk)",
-      "name": "Badam Milk (A2 Milk)",
-      "price": 67,
-      "description": "Hot, sweetened badam (almond) milk loaded with saffron and A2 milk.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642350/kanary_restaurant_dishes/ITM0000619_ipuhei.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Traditional Veg Meals",
-      "name": "Traditional Veg Meals",
-      "price": 130,
-      "description": "Traditional Kerala meals with red/white rice, sambar, aviyal, thoran, pullissery, pickle, papadam, and payasam.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642360/kanary_restaurant_dishes/ITM0001349_ingdni.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Chicken Curry Meals",
-      "name": "Chicken Curry Meals",
-      "price": 230,
-      "description": "Traditional Kerala meals served with red/white rice, regional chicken curry, thoran, pickles, and accompaniments.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642361/kanary_restaurant_dishes/ITM0001350_v9njbd.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Beef Curry Meals",
-      "name": "Beef Curry Meals",
-      "price": 270,
-      "description": "Classic Kerala meals served with white/red rice, slow-roasted spicy beef curry, side dishes, and papadam.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642362/kanary_restaurant_dishes/ITM0001359_vxw2eh.jpg",
-      "isChefSpecial": false
-    }
-  ],
-  "chefSpecials": [
-    {
-      "title": "Kanary Smoked Beef Brisket",
-      "name": "Kanary Smoked Beef Brisket",
-      "price": 659,
-      "description": "Premium slow-smoked beef brisket, infused with aromatic spices and natural wood smoke.",
-      "spicy": false,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642285/kanary_restaurant_dishes/ITM0001368_hmbpuo.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Beef Tenderloin",
-      "name": "Beef Tenderloin",
-      "price": 505,
-      "description": "Tender beef steak cuts grilled to order, served with crisp French fries and an organic garden green salad.",
-      "spicy": false,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642284/kanary_restaurant_dishes/ITM0001364_md0il7.jpg",
-      "isChefSpecial": false
-    }
-  ],
-  "starters": [
-    {
-      "title": "Chicken Manchow Soup",
-      "name": "Chicken Manchow Soup",
-      "price": 199,
-      "description": "A classic spicy and tangy Indo-Chinese soup loaded with shredded chicken and topped with crispy noodles.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642404/kanary_restaurant_dishes/ITM0000557_kw6uf8.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Hot & Sour Veg Soup",
-      "name": "Hot & Sour Veg Soup",
-      "price": 178,
-      "description": "Tangy and fiery vegetable soup packed with julienne carrots, bamboo shoots, and mushrooms.",
-      "spicy": true,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642405/kanary_restaurant_dishes/ITM0000789_wqfhph.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Hot & Sour Chicken Soup",
-      "name": "Hot & Sour Chicken Soup",
-      "price": 199,
-      "description": "A warming, classic hot and sour broth featuring tender chicken shreds and fresh scallions.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642406/kanary_restaurant_dishes/ITM0001298_fdmfjv.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Sweet Corn Veg Soup",
-      "name": "Sweet Corn Veg Soup",
-      "price": 178,
-      "description": "A comforting, velvety soup made with sweet golden corn kernels and farm-fresh minced veggies.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642404/kanary_restaurant_dishes/ITM0000557_kw6uf8.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Sweet Corn Chicken Soup",
-      "name": "Sweet Corn Chicken Soup",
-      "price": 199,
-      "description": "A delicate, cream-style sweet corn soup garnished with egg drop ribbons and tender chicken.",
-      "spicy": false,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642405/kanary_restaurant_dishes/ITM0000789_wqfhph.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "French Fries / Peri Peri Fries",
-      "name": "French Fries / Peri Peri Fries",
-      "price": 188,
-      "description": "Classic golden-fried potato chips, available salted or tossed in high-kick peri peri dry rub.",
-      "spicy": true,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642276/kanary_restaurant_dishes/ITM0000541_uphapz.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Buffalo Chicken Wings",
-      "name": "Buffalo Chicken Wings",
-      "price": 262,
-      "description": "Crisp chicken wings glazed in authentic spicy Buffalo cayenne hot sauce, served with cool dip.",
-      "spicy": true,
-      "veg": false,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642276/kanary_restaurant_dishes/ITM0000541_uphapz.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Dynamite Shrimp",
-      "name": "Dynamite Shrimp",
-      "price": 283,
-      "description": "Lightly battered crispy golden shrimp coated in our iconic spicy, creamy dynamite mayo glaze.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642277/kanary_restaurant_dishes/ITM0000564_f43cqi.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Prawns Tempura",
-      "name": "Prawns Tempura",
-      "price": 283,
-      "description": "Japanese-style crispy, airy tempura-battered prawns served with a seasoned dipping sauce.",
-      "spicy": false,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642278/kanary_restaurant_dishes/ITM0000635_kqjuyo.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Shrimp Popcorn",
-      "name": "Shrimp Popcorn",
-      "price": 308,
-      "description": "Bite-sized, crispy seasoned popcorn shrimp, ideal for sharing and snacking.",
-      "spicy": false,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642279/kanary_restaurant_dishes/ITM0000659_jgiyxa.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Chicken Momos (Schezwan)",
-      "name": "Chicken Momos (Schezwan)",
-      "price": 251,
-      "description": "Steamed chicken dumplings tossed in a bold, aromatic, and spicy Schezwan sauce.",
-      "spicy": true,
-      "veg": false,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642330/kanary_restaurant_dishes/ITM0001290_mpceou.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Veg Momos (Schezwan)",
-      "name": "Veg Momos (Schezwan)",
-      "price": 199,
-      "description": "Steamed garden vegetable dumplings coated in a fiery, hot Schezwan pepper sauce.",
-      "spicy": true,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642331/kanary_restaurant_dishes/ITM0001293_vyenoq.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Chicken Momos (Saffron Cream)",
-      "name": "Chicken Momos (Saffron Cream)",
-      "price": 251,
-      "description": "Succulent chicken momos served in a luxurious, aromatic saffron-infused dairy cream sauce.",
-      "spicy": false,
-      "veg": false,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642332/kanary_restaurant_dishes/ITM0001307_aj6hka.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Veg Momos (Saffron Cream)",
-      "name": "Veg Momos (Saffron Cream)",
-      "price": 220,
-      "description": "Gourmet vegetable momos bathed in a rich, buttery saffron and cardamom cream reduction.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642333/kanary_restaurant_dishes/ITM0001308_vsiza1.jpg",
-      "isChefSpecial": false
     }
   ],
   "grills": [
@@ -1060,6 +730,28 @@
       "veg": false,
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642335/kanary_restaurant_dishes/ITM0001360_cfgho8.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Peri Peri Chicken",
+      "name": "Peri Peri Chicken",
+      "price": "219 / 384 / 736",
+      "description": "Succulent charcoal chicken marinated in a spicy, tangy African bird's eye chili marinade. Served with Fries and Pita Bread.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642335/kanary_restaurant_dishes/ITM0001361_dxlgcd.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Masala Alfaham",
+      "name": "Masala Alfaham",
+      "price": "219 / 384 / 736",
+      "description": "Charcoal grilled chicken coated in a rich Indian spice marinade. Served with Fries and Pita Bread.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642334/kanary_restaurant_dishes/ITM0001353_ujn7cq.jpg",
       "isChefSpecial": false
     },
     {
@@ -1118,6 +810,17 @@
       "isChefSpecial": false
     },
     {
+      "title": "Masala Shawaya",
+      "name": "Masala Shawaya",
+      "price": "219 / 440 / 714",
+      "description": "Spit-roasted chicken infused with hot and flavorful Indian tandoori spices. Served with hummus, salad, and fries.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642400/kanary_restaurant_dishes/ITM0001370_tgt21g.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Peri Peri Shawaya",
       "name": "Peri Peri Shawaya",
       "price": "225 / 451 / 725",
@@ -1164,6 +867,17 @@
       "isChefSpecial": false
     },
     {
+      "title": "A2 Ghee Masala Dosa",
+      "name": "A2 Ghee Masala Dosa",
+      "price": 146,
+      "description": "Crispy ghee roast crepe stuffed with a spiced potato-onion mash, served with coconut and tomato chutneys.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642303/kanary_restaurant_dishes/ITM0000532_qrt849.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "A2 Ghee Podi Dosa",
       "name": "A2 Ghee Podi Dosa",
       "price": 146,
@@ -1183,6 +897,17 @@
       "veg": true,
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642305/kanary_restaurant_dishes/ITM0000534_fpolwn.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "A2 Ghee Onion Uthappam",
+      "name": "A2 Ghee Onion Uthappam",
+      "price": 127,
+      "description": "Thick, spongy rice pancake topped with fresh chopped onions, green chilies, and fried in A2 ghee.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642306/kanary_restaurant_dishes/ITM0000535_kdz9n5.jpg",
       "isChefSpecial": false
     },
     {
@@ -1230,6 +955,17 @@
       "isChefSpecial": false
     },
     {
+      "title": "A2 Ghee Paneer Masala Dosa",
+      "name": "A2 Ghee Paneer Masala Dosa",
+      "price": 199,
+      "description": "Crispy crepe filled with a savory spiced cottage cheese scramble roasted in pure A2 ghee.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642310/kanary_restaurant_dishes/ITM0000652_b7y3uk.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "A2 Ghee Kanary Porotta",
       "name": "A2 Ghee Kanary Porotta",
       "price": 26,
@@ -1238,6 +974,17 @@
       "veg": true,
       "dairy": true,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642311/kanary_restaurant_dishes/ITM0000679_h8qgjn.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "A2 Ghee Chappatti",
+      "name": "A2 Ghee Chappatti",
+      "price": 27,
+      "description": "Soft, healthy whole wheat flatbread rolled and griddled with a smear of grass-fed A2 ghee.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642312/kanary_restaurant_dishes/ITM0000680_qyj6nn.jpg",
       "isChefSpecial": false
     },
     {
@@ -1452,9 +1199,64 @@
       "dairy": true,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642294/kanary_restaurant_dishes/ITM0001399_miw6k1.jpg",
       "isChefSpecial": false
+    },
+    {
+      "title": "Classic Margherita Pizza",
+      "name": "Classic Margherita Pizza",
+      "price": 418,
+      "description": "12-inch thin crust pizza with house marinara, fresh basil, cherry tomatoes, and loaded mozzarella.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642386/kanary_restaurant_dishes/ITM0000561_jtjyft.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Tender Chicken Fajitas Pizza",
+      "name": "Tender Chicken Fajitas Pizza",
+      "price": 471,
+      "description": "12-inch pizza loaded with chicken shreds, bell peppers, cajun spices, mushrooms, red onion, and mozzarella.",
+      "spicy": true,
+      "veg": false,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642387/kanary_restaurant_dishes/ITM0000562_qktxcm.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Roasted Veg Pizza",
+      "name": "Roasted Veg Pizza",
+      "price": 418,
+      "description": "12-inch pizza topped with yellow and green zucchini, roasted bell peppers, olives, basil, onions, and cheese.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642388/kanary_restaurant_dishes/ITM0000631_hwhqtw.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "BBQ Chicken Pizza",
+      "name": "BBQ Chicken Pizza",
+      "price": 481,
+      "description": "12-inch pizza topped with BBQ chicken chunks, cheddar, mozzarella, gouda cheese, and a sweet & tangy sauce.",
+      "spicy": false,
+      "veg": false,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642388/kanary_restaurant_dishes/ITM0000632_pb6edh.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Four Season Pizza",
+      "name": "Four Season Pizza",
+      "price": 513,
+      "description": "12-inch gourmet pizza featuring four distinct cheese quarters: blue cheese, mozzarella, English cheddar, and gouda.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642389/kanary_restaurant_dishes/ITM0000682_cl0h32.jpg",
+      "isChefSpecial": false
     }
   ],
-  "smoothies": [
+  "beverages": [
     {
       "title": "Avocado Shake",
       "name": "Avocado Shake",
@@ -1467,6 +1269,61 @@
       "isChefSpecial": false
     },
     {
+      "title": "Ice Coffee",
+      "name": "Ice Coffee",
+      "price": 177,
+      "description": "Classic blended iced coffee topped with a rich scoop of Spanish vanilla ice cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642364/kanary_restaurant_dishes/ITM0000515_piz0bz.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Sharjah Delight",
+      "name": "Sharjah Delight",
+      "price": 154,
+      "description": "The classic Malabar shake made with banana, milk, boost, and topped with honey and nuts.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642365/kanary_restaurant_dishes/ITM0000516_zw66fw.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Dates Delight",
+      "name": "Dates Delight",
+      "price": 151,
+      "description": "A nutritious, thick blend of premium imported dates, chilled milk, and crushed almonds.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642366/kanary_restaurant_dishes/ITM0000547_jamrqx.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Pinacolada",
+      "name": "Pinacolada",
+      "price": 199,
+      "description": "A tropical, refreshing mocktail made with sweet pineapple juice, coconut cream, and crushed ice.",
+      "spicy": false,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642367/kanary_restaurant_dishes/ITM0000601_tz4mfx.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Pina Blue",
+      "name": "Pina Blue",
+      "price": 199,
+      "description": "A vibrant blue mocktail blending blue curacao syrup, pineapple juice, and coconut cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642368/kanary_restaurant_dishes/ITM0000623_tltawa.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Red Velvet Shake",
       "name": "Red Velvet Shake",
       "price": 209,
@@ -1475,6 +1332,17 @@
       "veg": true,
       "dairy": true,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642368/kanary_restaurant_dishes/ITM0000624_btd5dt.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Nutella Surprise",
+      "name": "Nutella Surprise",
+      "price": 209,
+      "description": "A chocolate lover's dream: rich Nutella chocolate spread blended with vanilla ice cream and milk.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642369/kanary_restaurant_dishes/ITM0000641_ihwipg.jpg",
       "isChefSpecial": false
     },
     {
@@ -1566,6 +1434,17 @@
       "isChefSpecial": false
     },
     {
+      "title": "Peanut Caramel Delight",
+      "name": "Peanut Caramel Delight",
+      "price": 178,
+      "description": "A rich blend of peanut butter, buttery salted caramel sauce, milk, and vanilla cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642377/kanary_restaurant_dishes/ITM0001412_p253sf.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Tender Coconut Shake",
       "name": "Tender Coconut Shake",
       "price": 177,
@@ -1577,71 +1456,25 @@
       "isChefSpecial": false
     },
     {
-      "title": "Strawberry Banana Smoothie",
-      "name": "Strawberry Banana Smoothie",
-      "price": 225,
-      "description": "Creamy probiotic smoothie made with fresh strawberries, banana, and A2 organic curd.",
+      "title": "Passion Fruit Mojito",
+      "name": "Passion Fruit Mojito",
+      "price": 166,
+      "description": "Tangy and sweet fizzy drink made with real passion fruit pulp, mint leaves, lime, and soda.",
       "spicy": false,
       "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642402/kanary_restaurant_dishes/ITM0001292_wqbc9c.jpg",
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642379/kanary_restaurant_dishes/ITM0000495_conldd.jpg",
       "isChefSpecial": false
     },
     {
-      "title": "Berry Mix Smoothie",
-      "name": "Berry Mix Smoothie",
-      "price": 251,
-      "description": "Rich berry smoothie combining blueberries, raspberries, cranberries, strawberries, and A2 organic curd.",
+      "title": "Lemon Mint Mojito",
+      "name": "Lemon Mint Mojito",
+      "price": 166,
+      "description": "",
       "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642403/kanary_restaurant_dishes/ITM0001315_somxsb.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Kanary Special Smoothie",
-      "name": "Kanary Special Smoothie",
-      "price": 209,
-      "description": "Gourmet smoothie: red & green apples, pomegranate, strawberry, cus-cus, blueberry puree, and A2 organic curd.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642402/kanary_restaurant_dishes/ITM0001292_wqbc9c.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Mixed Nuts Smoothie",
-      "name": "Mixed Nuts Smoothie",
-      "price": 209,
-      "description": "Healthy high-protein smoothie made of crushed almonds, cashews, pistachios, and A2 organic curd.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642403/kanary_restaurant_dishes/ITM0001315_somxsb.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Royal Cream Smoothie",
-      "name": "Royal Cream Smoothie",
-      "price": 209,
-      "description": "A rich treat: sweet mango, strawberry, chopped pistachios, and A2 organic curd.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642402/kanary_restaurant_dishes/ITM0001292_wqbc9c.jpg",
-      "isChefSpecial": false
-    }
-  ],
-  "beverages": [
-    {
-      "title": "Ice Coffee",
-      "name": "Ice Coffee",
-      "price": 177,
-      "description": "Classic blended iced coffee topped with a rich scoop of Spanish vanilla ice cream.",
-      "spicy": false,
-      "veg": true,
-      "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642364/kanary_restaurant_dishes/ITM0000515_piz0bz.jpg",
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
       "isChefSpecial": false
     },
     {
@@ -1656,14 +1489,25 @@
       "isChefSpecial": false
     },
     {
-      "title": "Passion Fruit Mojito",
-      "name": "Passion Fruit Mojito",
+      "title": "Peach Mojito",
+      "name": "Peach Mojito",
       "price": 166,
-      "description": "Tangy and sweet fizzy drink made with real passion fruit pulp, mint leaves, lime, and soda.",
+      "description": "Fizzy mocktail infused with sweet peach syrup, fresh mint leaves, lime, and soda.",
       "spicy": false,
       "veg": true,
       "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642379/kanary_restaurant_dishes/ITM0000495_conldd.jpg",
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642385/kanary_restaurant_dishes/ITM0001402_tsil6z.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Mango Mojito",
+      "name": "Mango Mojito",
+      "price": 166,
+      "description": "A tropical twist featuring sweet mango nectar, fresh mint, lime juice, and soda.",
+      "spicy": false,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642381/kanary_restaurant_dishes/ITM0000598_gfpte8.jpg",
       "isChefSpecial": false
     },
     {
@@ -1686,17 +1530,6 @@
       "veg": true,
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642380/kanary_restaurant_dishes/ITM0000544_vjafx4.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Mango Mojito",
-      "name": "Mango Mojito",
-      "price": 166,
-      "description": "A tropical twist featuring sweet mango nectar, fresh mint, lime juice, and soda.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642381/kanary_restaurant_dishes/ITM0000598_gfpte8.jpg",
       "isChefSpecial": false
     },
     {
@@ -1733,17 +1566,6 @@
       "isChefSpecial": false
     },
     {
-      "title": "Peach Mojito",
-      "name": "Peach Mojito",
-      "price": 166,
-      "description": "Fizzy mocktail infused with sweet peach syrup, fresh mint leaves, lime, and soda.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642385/kanary_restaurant_dishes/ITM0001402_tsil6z.jpg",
-      "isChefSpecial": false
-    },
-    {
       "title": "Red Diamond Mojito",
       "name": "Red Diamond Mojito",
       "price": 177,
@@ -1763,6 +1585,94 @@
       "veg": true,
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642354/kanary_restaurant_dishes/ITM0000575_zxdu6t.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Classic Ice Tea",
+      "name": "Classic Ice Tea",
+      "price": 177,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Watermelon Ice Tea",
+      "name": "Watermelon Ice Tea",
+      "price": 177,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Mango Ice Tea",
+      "name": "Mango Ice Tea",
+      "price": 177,
+      "description": "Chilled iced black tea blended with a sweet touch of ripe mango flavor.",
+      "spicy": false,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642357/kanary_restaurant_dishes/ITM0000671_fqt2b6.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Blue Diamond Ice Tea",
+      "name": "Blue Diamond Ice Tea",
+      "price": 177,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Blueberry Ice Tea",
+      "name": "Blueberry Ice Tea",
+      "price": 177,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Strawberry Ice Tea",
+      "name": "Strawberry Ice Tea",
+      "price": 177,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Peach Ice Tea",
+      "name": "Peach Ice Tea",
+      "price": 177,
+      "description": "The classic summer iced tea: black tea brewed and sweetened with juicy peach syrup.",
+      "spicy": false,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642356/kanary_restaurant_dishes/ITM0000606_etvfnx.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Red Diamond Ice Tea",
+      "name": "Red Diamond Ice Tea",
+      "price": 177,
+      "description": "",
+      "spicy": false,
+      "veg": false,
+      "dairy": false,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
       "isChefSpecial": false
     },
     {
@@ -1786,29 +1696,9 @@
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642356/kanary_restaurant_dishes/ITM0000577_wsegnh.jpg",
       "isChefSpecial": false
-    },
-    {
-      "title": "Peach Ice Tea",
-      "name": "Peach Ice Tea",
-      "price": 177,
-      "description": "The classic summer iced tea: black tea brewed and sweetened with juicy peach syrup.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642356/kanary_restaurant_dishes/ITM0000606_etvfnx.jpg",
-      "isChefSpecial": false
-    },
-    {
-      "title": "Mango Ice Tea",
-      "name": "Mango Ice Tea",
-      "price": 177,
-      "description": "Chilled iced black tea blended with a sweet touch of ripe mango flavor.",
-      "spicy": false,
-      "veg": true,
-      "dairy": false,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642357/kanary_restaurant_dishes/ITM0000671_fqt2b6.jpg",
-      "isChefSpecial": false
-    },
+    }
+  ],
+  "smoothies": [
     {
       "title": "Fruit Cocktail Juice",
       "name": "Fruit Cocktail Juice",
@@ -1909,6 +1799,173 @@
       "isChefSpecial": false
     },
     {
+      "title": "Strawberry Banana Smoothie",
+      "name": "Strawberry Banana Smoothie",
+      "price": 225,
+      "description": "Creamy probiotic smoothie made with fresh strawberries, banana, and A2 organic curd.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642402/kanary_restaurant_dishes/ITM0001292_wqbc9c.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Berry Mix Smoothie",
+      "name": "Berry Mix Smoothie",
+      "price": 251,
+      "description": "Rich berry smoothie combining blueberries, raspberries, cranberries, strawberries, and A2 organic curd.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642403/kanary_restaurant_dishes/ITM0001315_somxsb.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Kanary Special Smoothie",
+      "name": "Kanary Special Smoothie",
+      "price": 209,
+      "description": "Gourmet smoothie: red & green apples, pomegranate, strawberry, cus-cus, blueberry puree, and A2 organic curd.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642402/kanary_restaurant_dishes/ITM0001292_wqbc9c.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Mixed Nuts Smoothie",
+      "name": "Mixed Nuts Smoothie",
+      "price": 209,
+      "description": "Healthy high-protein smoothie made of crushed almonds, cashews, pistachios, and A2 organic curd.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642403/kanary_restaurant_dishes/ITM0001315_somxsb.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Royal Cream Smoothie",
+      "name": "Royal Cream Smoothie",
+      "price": 209,
+      "description": "A rich treat: sweet mango, strawberry, chopped pistachios, and A2 organic curd.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642402/kanary_restaurant_dishes/ITM0001292_wqbc9c.jpg",
+      "isChefSpecial": false
+    }
+  ],
+  "desserts": [
+    {
+      "title": "Cassatta Ice Cream",
+      "name": "Cassatta Ice Cream",
+      "price": 286,
+      "description": "Traditional layered cassatta ice cream slice, rich in nuts and cake sponge.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642390/kanary_restaurant_dishes/ITM0000552_c2s16v.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Banana Split",
+      "name": "Banana Split",
+      "price": 209,
+      "description": "Gourmet banana split served with three scoops: Spanish Delight, Vanilla, and Chocolate ice cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642407/kanary_restaurant_dishes/ITM0000747_fdeobi.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Kanary Special Falooda",
+      "name": "Kanary Special Falooda",
+      "price": 284,
+      "description": "Fabulous falooda packed with apple, anar, grapes, pineapple, cashews, raisins, rose milk, and vanilla ice cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642408/kanary_restaurant_dishes/ITM0000748_bmnfhx.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Strawberry Scoop",
+      "name": "Strawberry Scoop",
+      "price": 103,
+      "description": "Single scoop of premium creamy strawberry ice cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642391/kanary_restaurant_dishes/ITM0000580_pgyyl4.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Vanilla Scoop",
+      "name": "Vanilla Scoop",
+      "price": 108,
+      "description": "Classic scoop of rich Madagascar vanilla bean ice cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642392/kanary_restaurant_dishes/ITM0000581_y7fpgo.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Chocolate Scoop",
+      "name": "Chocolate Scoop",
+      "price": 127,
+      "description": "Rich, creamy milk chocolate scoop of ice cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642393/kanary_restaurant_dishes/ITM0000626_tshppn.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Butterscotch Scoop",
+      "name": "Butterscotch Scoop",
+      "price": 145,
+      "description": "Sweet scoop of butterscotch ice cream with caramelized butter crunch pieces.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642394/kanary_restaurant_dishes/ITM0000649_mggert.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Spanish Delight Scoop",
+      "name": "Spanish Delight Scoop",
+      "price": 135,
+      "description": "A scoop of premium, creamy Spanish caramel-butterscotch ripple ice cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642395/kanary_restaurant_dishes/ITM0000673_cpxavj.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Mango Scoop",
+      "name": "Mango Scoop",
+      "price": 114,
+      "description": "Premium scoop of rich, sweet Alphonso mango ice cream.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642395/kanary_restaurant_dishes/ITM0001439_uzoudc.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Red Velvet Scoop",
+      "name": "Red Velvet Scoop",
+      "price": 157,
+      "description": "Luxury scoop of red velvet ice cream blended with real red velvet cake bits.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642390/kanary_restaurant_dishes/ITM0000552_c2s16v.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Black Coffee",
       "name": "Black Coffee",
       "price": 24,
@@ -1917,6 +1974,17 @@
       "veg": true,
       "dairy": false,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642336/kanary_restaurant_dishes/ITM0000489_c1jue3.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Biriyani Tea (A2 Milk)",
+      "name": "Biriyani Tea (A2 Milk)",
+      "price": 33,
+      "description": "Our special strong tea brewed with milk and cardamom, perfect after a biryani meal.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642337/kanary_restaurant_dishes/ITM0000507_ykf4dz.jpg",
       "isChefSpecial": false
     },
     {
@@ -1939,6 +2007,17 @@
       "veg": true,
       "dairy": true,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642339/kanary_restaurant_dishes/ITM0000509_xh1ajw.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Pure A2 Milk",
+      "name": "Pure A2 Milk",
+      "price": 38,
+      "description": "A cup of hot, sweetened pure organic A2 milk.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642340/kanary_restaurant_dishes/ITM0000510_rmrsai.jpg",
       "isChefSpecial": false
     },
     {
@@ -1975,6 +2054,28 @@
       "isChefSpecial": false
     },
     {
+      "title": "Boost (A2 Milk)",
+      "name": "Boost (A2 Milk)",
+      "price": 48,
+      "description": "Hot chocolate-malt Boost drink made with rich A2 milk.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642343/kanary_restaurant_dishes/ITM0000567_nxhv1z.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Horlicks (A2 Milk)",
+      "name": "Horlicks (A2 Milk)",
+      "price": 48,
+      "description": "Hot wheat-malt Horlicks drink prepared with rich A2 milk.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642344/kanary_restaurant_dishes/ITM0000568_kzmbyz.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Lemon Tea",
       "name": "Lemon Tea",
       "price": 28,
@@ -2008,6 +2109,39 @@
       "isChefSpecial": false
     },
     {
+      "title": "Sulaimani",
+      "name": "Sulaimani",
+      "price": 19,
+      "description": "Traditional spice-infused black tea with a squeeze of fresh lemon.",
+      "spicy": false,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642299/kanary_restaurant_dishes/ITM0000604_a8zj1p.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Chukku Kappi",
+      "name": "Chukku Kappi",
+      "price": 38,
+      "description": "Traditional dry ginger and black pepper coffee, highly soothing and herbal.",
+      "spicy": false,
+      "veg": true,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642347/kanary_restaurant_dishes/ITM0000595_h0dupf.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Masala Tea (A2 Milk)",
+      "name": "Masala Tea (A2 Milk)",
+      "price": 45,
+      "description": "Indian spice chai brewed with ginger, cardamom, cloves, and rich A2 milk.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642348/kanary_restaurant_dishes/ITM0000596_eqixyk.jpg",
+      "isChefSpecial": false
+    },
+    {
       "title": "Tea (A2 Milk)",
       "name": "Tea (A2 Milk)",
       "price": 28,
@@ -2016,6 +2150,17 @@
       "veg": true,
       "dairy": true,
       "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642349/kanary_restaurant_dishes/ITM0000618_zcajli.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Badam Milk (A2 Milk)",
+      "name": "Badam Milk (A2 Milk)",
+      "price": 67,
+      "description": "Hot, sweetened badam (almond) milk loaded with saffron and A2 milk.",
+      "spicy": false,
+      "veg": true,
+      "dairy": true,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642350/kanary_restaurant_dishes/ITM0000619_ipuhei.jpg",
       "isChefSpecial": false
     },
     {
@@ -2030,16 +2175,38 @@
       "isChefSpecial": false
     }
   ],
-  "desserts": [
+  "meals": [
     {
-      "title": "Cassatta Ice Cream",
-      "name": "Cassatta Ice Cream",
-      "price": 286,
-      "description": "Traditional layered cassatta ice cream slice, rich in nuts and cake sponge.",
+      "title": "Traditional Veg Meals",
+      "name": "Traditional Veg Meals",
+      "price": 130,
+      "description": "Traditional Kerala meals with red/white rice, sambar, aviyal, thoran, pullissery, pickle, papadam, and payasam.",
       "spicy": false,
       "veg": true,
       "dairy": true,
-      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642390/kanary_restaurant_dishes/ITM0000552_c2s16v.jpg",
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642360/kanary_restaurant_dishes/ITM0001349_ingdni.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Chicken Curry Meals",
+      "name": "Chicken Curry Meals",
+      "price": 230,
+      "description": "Traditional Kerala meals served with red/white rice, regional chicken curry, thoran, pickles, and accompaniments.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642361/kanary_restaurant_dishes/ITM0001350_v9njbd.jpg",
+      "isChefSpecial": false
+    },
+    {
+      "title": "Beef Curry Meals",
+      "name": "Beef Curry Meals",
+      "price": 270,
+      "description": "Classic Kerala meals served with white/red rice, slow-roasted spicy beef curry, side dishes, and papadam.",
+      "spicy": true,
+      "veg": false,
+      "dairy": false,
+      "image": "https://res.cloudinary.com/lzebcil2/image/upload/v1789642362/kanary_restaurant_dishes/ITM0001359_vxw2eh.jpg",
       "isChefSpecial": false
     }
   ]
